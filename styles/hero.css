@@ -1,0 +1,28 @@
+.wordspins {
+    /* display: block; */
+    /* transform: translateY(-20%); */
+    color: black;
+    animation : spin_words 5s  infinite  ;
+
+}
+
+@keyframes spin_words {
+   
+    0%{
+        transform: translateY(100%);
+    }
+    25%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(-100%);
+    }
+    75%{
+        transform:  translateY(-200%);
+    }
+    100%{ 
+        transform:  translateY(-300%);
+    }
+
+
+}
