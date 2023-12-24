@@ -48,8 +48,8 @@ const Process = () => {
         <div className='grid grid-cols-4 w-[90%] gap-4 mt-12'>
 
             {
-                data.map((process)=>{
-                    return <SingleProcessDiv img={process.img} title={process.title} content={process.content}/>
+                data.map((process,index)=>{
+                    return <SingleProcessDiv img={process.img} title={process.title} content={process.content} key={index}/>
 
                 })
             }
