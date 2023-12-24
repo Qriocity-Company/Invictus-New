@@ -20,25 +20,22 @@ import water from '../assets/testimonials/water.svg'
 
 const testimonialsData = [
   {
-    quote: "Invictus transformed our social media game! Their Social Media Marketing strategies gave us a competitive edge, increasing brand engagement and customer connections.",
-    author: "Karan Mehra, Tech Innovations Ltd",
+    quote: "“The amount of work we have is daunting. It’s nice to know that you are there ​to support us and you can take on the heavy lifting.”",
+    author: "Jency Anthony, Pethowz",
   },
   {
-    quote: "Invictus is our go-to for digital services. From stunning graphic design to seamless UX/UI, they understand the pulse of our audience.",
-    author: "Sanjay Gupta, CreativeCraft Studios",
+    quote: "“Partnering with Invictus was an instrumental component for SoFi to elevate and build authority within the investment sector, a critical area of expansion for us in 2021.”",
+    author: "Karun, Volkswagon",
   },
   {
-    quote: "In the world of performance marketing, Invictus stands out. Their data-driven approach and focus on ROI delivered tangible results for us.",
-    author: "Arjun Reddy, Innovators",
+    quote: "“With Invictus support, we saw an immediate impact within the 1st quarter that resulted in impressive keyword rankings, website visitors, and product downloads for Figma Ideas”",
+    author: "Henry William, Resnet Solutions",
   },
   {
-    quote: "Invictus's web & app development exceeded our expectations. Their expertise and commitment to excellence are unmatched.",
+    quote: "“Invictus's web & app development exceeded our expectations. Their expertise and commitment to excellence are unmatched.”",
     author: "Alex Greene, Visionaries Ltd",
   },
-  {
-    quote: "Invictus's web & app development exceeded our expectations. Their expertise and commitment to excellence are unmatched.",
-    author: "Rodrigo Reynolds, DataTech Solutions",
-  },
+  
 ];
 
 const companyImages = [
