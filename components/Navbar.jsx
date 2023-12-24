@@ -14,7 +14,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className=" flex flex-row justify-between  w-full items-center   sm:px-16 md:px-[48px] py-[1rem] fixed top-0 max-w-[1440px]  md:text-[12px] lg:text-[16px] z-20  bg-white border-b-[1px] border-gray-800 ">
+    <div className=" flex flex-row justify-between  w-full items-center   sm:px-16 md:px-[48px] py-[1rem] fixed top-0 max-w-[1536px]  md:text-[12px] lg:text-[16px] z-20  bg-white border-b-[1px] border-gray-800 ">
       <a href="/">
         <Image src={logo} alt="Resnet Solutions" className="w-[100%]" width={100} />
       </a>

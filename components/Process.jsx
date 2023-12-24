@@ -30,11 +30,11 @@ const data = [
 
 const SingleProcessDiv=({img,title,content})=>{
     return (
-        <div className='p-12 py-20 border-2 border-b-8 border-black rounded-[81px] bg-[#0C7D55] flex flex-col gap-8 items-center'>
+        <div className='p-12 py-20 border-2 border-b-8 text-black  border-black rounded-[81px] bg-white flex flex-col gap-8 items-center hover:bg-[#0C7D55] hover:scale-[0.98] hover:text-white transition-all duration-500'>
 
             <Image src={img}></Image>
-            <h3 className='text-xl font-bold text-white'>{title}</h3>
-            <p className='text-center text-white'>{content}</p>
+            <h3 className='text-xl font-bold '>{title}</h3>
+            <p className='text-center '>{content}</p>
         </div>
     )
 }

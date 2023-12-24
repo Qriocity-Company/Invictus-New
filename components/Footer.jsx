@@ -12,7 +12,7 @@ const FooterTop = () =>{
             </div>
 
             <div>
-                <div className=' rounded-full flex justify-center items-center bg-black text-white text-lg font-semibold h-[250px] w-[250px]'>
+                <div className=' rounded-full flex justify-center items-center bg-black text-white text-lg font-semibold h-[250px] w-[250px]  hover:bg-[#0C7D55] hover:scale-110 transition-all duration-500'>
                     Connect with us
                 </div>
             </div>
