@@ -1,7 +1,9 @@
+import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import { Navbar } from '@/components/Navbar'
 import Process from '@/components/Process'
 import Services from '@/components/Services'
+import Testimonials from '@/components/Testimonials'
 
 
 export default function Home() {
@@ -11,6 +13,8 @@ export default function Home() {
       <Hero/>
       <Services/>
       <Process/>
+      <Testimonials/>
+      <Footer/>
     </main>
   )
 }

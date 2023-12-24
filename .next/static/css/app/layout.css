@@ -571,11 +571,38 @@ video {
 .bottom-\[5\%\]{
   bottom: 5%;
 }
+.bottom-0{
+  bottom: 0px;
+}
+.left-\[40\%\]{
+  left: 40%;
+}
+.bottom-\[10\%\]{
+  bottom: 10%;
+}
+.bottom-\[15\%\]{
+  bottom: 15%;
+}
+.left-\[60\%\]{
+  left: 60%;
+}
+.left-\[55\%\]{
+  left: 55%;
+}
+.left-\[52\%\]{
+  left: 52%;
+}
 .z-20{
   z-index: 20;
 }
 .z-\[50\]{
   z-index: 50;
+}
+.col-span-3{
+  grid-column: span 3 / span 3;
+}
+.row-span-2{
+  grid-row: span 2 / span 2;
 }
 .mx-auto{
   margin-left: auto;
@@ -637,6 +664,9 @@ video {
 .grid{
   display: grid;
 }
+.contents{
+  display: contents;
+}
 .hidden{
   display: none;
 }
@@ -648,6 +678,24 @@ video {
 }
 .h-\[60vh\]{
   height: 60vh;
+}
+.h-\[45vh\]{
+  height: 45vh;
+}
+.h-\[35vh\]{
+  height: 35vh;
+}
+.h-\[80px\]{
+  height: 80px;
+}
+.h-\[200px\]{
+  height: 200px;
+}
+.h-\[250px\]{
+  height: 250px;
+}
+.h-\[150px\]{
+  height: 150px;
 }
 .w-\[100\%\]{
   width: 100%;
@@ -671,6 +719,15 @@ video {
 .w-\[90\%\]{
   width: 90%;
 }
+.w-\[200px\]{
+  width: 200px;
+}
+.w-\[250px\]{
+  width: 250px;
+}
+.w-\[50\%\]{
+  width: 50%;
+}
 .max-w-\[1440px\]{
   max-width: 1440px;
 }
@@ -686,6 +743,12 @@ video {
 }
 .grid-cols-4{
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.grid-rows-2{
+  grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 .flex-row{
   flex-direction: row;
@@ -708,6 +771,9 @@ video {
 .justify-between{
   justify-content: space-between;
 }
+.justify-around{
+  justify-content: space-around;
+}
 .gap-10{
   gap: 2.5rem;
 }
@@ -725,6 +791,26 @@ video {
 }
 .gap-8{
   gap: 2rem;
+}
+.gap-y-6{
+  row-gap: 1.5rem;
+}
+.gap-y-12{
+  row-gap: 3rem;
+}
+.gap-y-4{
+  row-gap: 1rem;
+}
+.gap-y-8{
+  row-gap: 2rem;
+}
+.gap-x-12{
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+}
+.gap-x-40{
+  -moz-column-gap: 10rem;
+       column-gap: 10rem;
 }
 .overflow-hidden{
   overflow: hidden;
@@ -749,6 +835,21 @@ video {
 }
 .rounded-\[81px\]{
   border-radius: 81px;
+}
+.rounded-\[100\%\]{
+  border-radius: 100%;
+}
+.rounded-\[20\%\]{
+  border-radius: 20%;
+}
+.rounded-\[200px\]{
+  border-radius: 200px;
+}
+.rounded-\[10000px\]{
+  border-radius: 10000px;
+}
+.rounded-full{
+  border-radius: 9999px;
 }
 .border-2{
   border-width: 2px;
@@ -790,6 +891,10 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
+.border-white{
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -797,6 +902,14 @@ video {
 .bg-\[\#0C7D55\]{
   --tw-bg-opacity: 1;
   background-color: rgb(12 125 85 / var(--tw-bg-opacity));
+}
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.bg-\[\#333333\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 51 51 / var(--tw-bg-opacity));
 }
 .bg-gradient-to-l{
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
@@ -823,6 +936,9 @@ video {
 }
 .p-12{
   padding: 3rem;
+}
+.p-8{
+  padding: 2rem;
 }
 .py-10{
   padding-top: 2.5rem;
@@ -864,6 +980,14 @@ video {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.px-20{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
 .pr-12{
   padding-right: 3rem;
 }
@@ -875,6 +999,9 @@ video {
 }
 .text-center{
   text-align: center;
+}
+.text-right{
+  text-align: right;
 }
 .text-start{
   text-align: start;
@@ -915,6 +1042,9 @@ video {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
+.text-\[80px\]{
+  font-size: 80px;
+}
 .font-black{
   font-weight: 900;
 }
@@ -949,6 +1079,14 @@ video {
 .text-\[\#0C7D55\]{
   --tw-text-opacity: 1;
   color: rgb(12 125 85 / var(--tw-text-opacity));
+}
+.text-\[\#0C9363\]{
+  --tw-text-opacity: 1;
+  color: rgb(12 147 99 / var(--tw-text-opacity));
+}
+.text-\[\#ADADAD\]{
+  --tw-text-opacity: 1;
+  color: rgb(173 173 173 / var(--tw-text-opacity));
 }
 .backdrop-blur-\[0\.5rem\]{
   --tw-backdrop-blur: blur(0.5rem);

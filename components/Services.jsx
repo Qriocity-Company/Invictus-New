@@ -1,34 +1,33 @@
 "use client"
 
 import React,{useState} from 'react'
-import { FaPlus } from "react-icons/fa";
-import { TiMinus } from "react-icons/ti";
+
 import { FaAngleDown } from "react-icons/fa";
 import '../styles/services.css'
 const Services = () => {
-  const faqData = [
+  const servicesData = [
     {
-      question: "Social Media Marketing",
-      answer:
+      title: "Social Media Marketing",
+      content:
         "Social media marketing focuses on promoting brands and products on various social media platforms. It's about creating engaging content, managing social media profiles, and running social media advertisements to enhance brand presence and engagement with the target audience.",
     },
     {
-      question:
+      title:
         "Performance Marketing",
-      answer:
+      content:
         "Performance marketing is a comprehensive term that includes online marketing and advertising programs where advertisers pay only when a specific action is completed, such as a sale, lead, or click. It's data-driven and highly measurable, focusing on delivering tangible results in terms of ROI.",
     },
     {
-      question: "Digital Services",
-      answer:
+      title: "Digital Services",
+      content:
         "Design services encompass a wide range of activities, from graphic design for digital and print media to user experience (UX) and user interface (UI) design for apps and websites. This field is about creating visually appealing and functional designs that resonate with the target audience and enhance the user experience",
     },
     {
-      question: "Web & App Development",
-      answer: "Marketing has always been about utilising tools to connect with your audience at the right place and time. While traditional marketing methods are still relevant in our modern age, the sheer amount of time we spend and rely on the internet has meant that digital marketing has boomed.",
+      title: "Web & App Development",
+      content: "Marketing has always been about utilising tools to connect with your audience at the right place and time. While traditional marketing methods are still relevant in our modern age, the sheer amount of time we spend and rely on the internet has meant that digital marketing has boomed.",
     },
 
-    // Add more questions and answers as needed
+    // Add more titles and contents as needed
   ];
 
   const [openIndex, setOpenIndex] = useState(null);
@@ -43,7 +42,7 @@ const Services = () => {
       <div className='p-4 px-12 border-4 border-gray-300 rounded-[40px] w-fit text-3xl text-black font-semibold '>Our Services</div>
 
       <div className='mt-4 w-[60%]'>
-      {faqData.map((item, index) => (
+      {servicesData.map((item, index) => (
         <div key={index} className="service-div my-4 p-4 bg-white text-black border-2 border-gray-300 ">
           <div
             className="flex justify-between items-center  p-4 cursor-pointer "
@@ -60,7 +59,7 @@ const Services = () => {
                   <span
                     className={`text-5xl text-start font-grotesk font-extrabold md:px-5`}
                   >
-                    {item.question}
+                    {item.title}
                   </span>
                 </div>
                 <div className={`${(openIndex==index)?'rotate-icon':''}`}>
@@ -71,7 +70,7 @@ const Services = () => {
           </div>
           {/* {openIndex === index && ( */}
             <div className={` ${(openIndex==index)?'block':'hidden' } p-5 px-10 pb-16  border-t border-gray-300 relative`}>
-              <p className="text-gray-500">{item.answer}</p>
+              <p className="text-gray-500">{item.content}</p>
               <button className='bg-[#0C7D55] text-white py-2 px-8 rounded-[40px] border-none absolute right-[5%] bottom-[5%]'>Know More</button>
             </div>
           {/* )} */}
