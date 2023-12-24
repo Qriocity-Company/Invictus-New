@@ -39,6 +39,9 @@ const grotesk = localFont({
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${grotesk.variable}`} >
+      <title>
+        Invictus
+      </title>
       <body className='w-full flex flex-col justify-center items-center ' >{children}</body>
     </html>
   )

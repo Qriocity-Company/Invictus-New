@@ -1,0 +1,42 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./styles/services.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+.service-div{
+    transition: all 2s ease-in-out;
+}
+.rotate-icon{
+
+    transform: rotate(180deg);
+    transition: all 0.2s ease-in-out;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./styles/hero.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+.wordspins {
+    /* display: block; */
+    /* transform: translateY(-20%); */
+    color: black;
+    animation : spin_words 5s  infinite  ;
+
+}
+
+@keyframes spin_words {
+   
+    0%{
+        transform: translateY(100%);
+    }
+    25%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(-100%);
+    }
+    75%{
+        transform:  translateY(-200%);
+    }
+    100%{ 
+        transform:  translateY(-300%);
+    }
+
+
+}
