@@ -71,12 +71,13 @@
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  z-index: 100;
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  
 }
 .prev{
   left: 0;
@@ -211,13 +212,6 @@
   }
 
 
-  .next {
-    right: -10%;
-    
-  }
-  .prev{
-    left:-10%
-  }
   .content p{
     margin: 6% 0;
   }

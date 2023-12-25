@@ -57,11 +57,11 @@ const companyImages = [
 const TestimonialCompanies = () =>{
     return (
       <div className='flex justify-center items-center w-full'>
-        <div className='w-[90%] bg-black p-8 px-20 grid grid-cols-4'>
+        <div className='w-[100%] md:w-[90%] bg-black p-8  md:px-20 grid grid-cols-3 md:grid-cols-4  gap-x-8 md:gap-x-4 gap-y-4'>
         {
           companyImages.map((company,index)=>{
             return(
-                  <div className='w-full h-[150px] flex items-center justify-center' key={index}>
+                  <div className='w-full h-[100px] md:h-[150px] flex items-center justify-center' key={index}>
                     <Image src={company.img}></Image>
 
                   </div>
@@ -99,13 +99,13 @@ const Testimonials = () => {
   };
 
   return (
-    <div className='mt-12 w-full py-16 flex flex-col items-center gap-4 bg-black text-white '>
+    <div className='mt-12 w-full pb-4 md:pb-16 py-8 md:py-16 flex flex-col items-center gap-4 bg-black text-white '>
       <div className='p-4 px-12 border-2 border-white rounded-[40px] w-fit text-3xl font-semibold '>Testimonials</div>
       <div className='flex gap-4 justify-center font-grotesk mt-4'>
         <h1 className='text-4xl font-bold'>What People</h1>
         <h1 className='text-4xl font-bold text-[#0C9363]'>love in us</h1>
       </div>
-      <div className="outer-container bg-[#333333] h-[35vh]">
+      <div className="outer-container bg-[#333333] h-[30vh] md:h-[35vh]">
         <div className="slideshow-container">
           {testimonialsData.map((testimonial, index) => (
             <div key={index} className="mySlides fade">
