@@ -16,7 +16,7 @@ import '../../styles/servicePage.css'
 
 const SingleService = ({img,title,content})=>{
     return (
-        <div className='md:h-[90vh] block md:flex justify-center items-center gap-10 mt-16 md:mt-0' data-aos="fade-left">
+        <div className='md:h-[90vh] block md:flex justify-center items-center gap-10 mt-16 md:mt-0'>
             <div className='w-[100%] md:w-[50%] h-[180px] md:h-auto flex justify-end'>
                 <Image src={img} alt='.'></Image>
             </div>
