@@ -511,9 +511,6 @@ video {
 .relative{
   position: relative;
 }
-.sticky{
-  position: sticky;
-}
 .-left-1\/2{
   left: -50%;
 }
@@ -603,11 +600,11 @@ video {
 .mr-2{
   margin-right: 0.5rem;
 }
-.mt-0{
-  margin-top: 0px;
-}
 .mt-12{
   margin-top: 3rem;
+}
+.mt-16{
+  margin-top: 4rem;
 }
 .mt-20{
   margin-top: 5rem;
@@ -620,9 +617,6 @@ video {
 }
 .mt-8{
   margin-top: 2rem;
-}
-.mt-16{
-  margin-top: 4rem;
 }
 .block{
   display: block;
@@ -648,6 +642,9 @@ video {
 .h-\[130px\]{
   height: 130px;
 }
+.h-\[180px\]{
+  height: 180px;
+}
 .h-\[30px\]{
   height: 30px;
 }
@@ -659,24 +656,6 @@ video {
 }
 .h-\[60vh\]{
   height: 60vh;
-}
-.h-\[90vh\]{
-  height: 90vh;
-}
-.h-\[50\%\]{
-  height: 50%;
-}
-.h-\[500px\]{
-  height: 500px;
-}
-.h-\[300px\]{
-  height: 300px;
-}
-.h-\[200px\]{
-  height: 200px;
-}
-.h-\[180px\]{
-  height: 180px;
 }
 .w-\[100\%\]{
   width: 100%;
@@ -690,14 +669,8 @@ video {
 .w-\[140px\]{
   width: 140px;
 }
-.w-\[30\%\]{
-  width: 30%;
-}
 .w-\[50\%\]{
   width: 50%;
-}
-.w-\[70\%\]{
-  width: 70%;
 }
 .w-\[80\%\]{
   width: 80%;
@@ -771,9 +744,6 @@ video {
 }
 .gap-5{
   gap: 1.25rem;
-}
-.gap-6{
-  gap: 1.5rem;
 }
 .gap-8{
   gap: 2rem;
@@ -986,9 +956,6 @@ video {
 .text-\[40px\]{
   font-size: 40px;
 }
-.text-\[50px\]{
-  font-size: 50px;
-}
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1060,24 +1027,33 @@ video {
 .ease-in-out{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+body{
+    overflow-x: hidden;
+}
+
 .hover\:scale-110:hover{
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+
 .hover\:scale-\[0\.98\]:hover{
   --tw-scale-x: 0.98;
   --tw-scale-y: 0.98;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+
 .hover\:bg-\[\#0C7D55\]:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(12 125 85 / var(--tw-bg-opacity));
 }
+
 .hover\:text-white:hover{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+
 @media (min-width: 768px){
 
   .md\:sticky{
@@ -1156,6 +1132,10 @@ video {
     height: 35vh;
   }
 
+  .md\:h-\[90vh\]{
+    height: 90vh;
+  }
+
   .md\:h-\[98px\]{
     height: 98px;
   }
@@ -1164,12 +1144,12 @@ video {
     height: auto;
   }
 
-  .md\:h-\[90vh\]{
-    height: 90vh;
-  }
-
   .md\:w-\[250px\]{
     width: 250px;
+  }
+
+  .md\:w-\[30\%\]{
+    width: 30%;
   }
 
   .md\:w-\[50\%\]{
@@ -1180,20 +1160,16 @@ video {
     width: 60%;
   }
 
+  .md\:w-\[70\%\]{
+    width: 70%;
+  }
+
   .md\:w-\[90\%\]{
     width: 90%;
   }
 
   .md\:w-auto{
     width: auto;
-  }
-
-  .md\:w-\[70\%\]{
-    width: 70%;
-  }
-
-  .md\:w-\[30\%\]{
-    width: 30%;
   }
 
   .md\:max-w-5xl{
@@ -1301,6 +1277,11 @@ video {
     text-align: left;
   }
 
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .md\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1318,6 +1299,10 @@ video {
 
   .md\:text-\[12px\]{
     font-size: 12px;
+  }
+
+  .md\:text-\[50px\]{
+    font-size: 50px;
   }
 
   .md\:text-\[60px\]{
@@ -1340,16 +1325,8 @@ video {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
-
-  .md\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .md\:text-\[50px\]{
-    font-size: 50px;
-  }
 }
+
 @media (min-width: 1024px){
 
   .lg\:max-w-\[1536px\]{
@@ -1370,8 +1347,6 @@ video {
     font-size: 16px;
   }
 }
-
-
 /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[11].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\layout.js","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"} ***!
   \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/

@@ -1,4 +1,6 @@
-import React from 'react'
+"use client"
+
+import React, { useEffect } from 'react'
 import Image from 'next/image'
 import serviceImg from '../../assets/services-img.svg'
 import social from '../../assets/services/social-media.svg'
@@ -6,11 +8,15 @@ import performance from '../../assets/services/marketting.svg'
 import design from '../../assets/services/design-services.svg'
 import web from '../../assets/services/web-app-dev.svg'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 import '../../styles/servicePage.css'
 
 const SingleService = ({img,title,content})=>{
     return (
-        <div className='md:h-[90vh] block md:flex justify-center items-center gap-10 mt-16 md:mt-0'>
+        <div className='md:h-[90vh] block md:flex justify-center items-center gap-10 mt-16 md:mt-0' data-aos="fade-left">
             <div className='w-[100%] md:w-[50%] h-[180px] md:h-auto flex justify-end'>
                 <Image src={img} alt='.'></Image>
             </div>
@@ -48,6 +54,14 @@ const page = () => {
           content: "Website and app development involves the creation and maintenance of websites and mobile applications. This includes web design, web publishing, web programming, and database management. It's a crucial aspect of digital presence, ensuring that businesses have functional, efficient, and user-friendly platforms for their audience."
         }
     ];
+
+    useEffect(() => {
+        AOS.init({
+             duration: 1000,
+             once: false,
+             delay:100
+           })
+     }, [])
 
   return (
     <main className='mt-20 w-full flex flex-col justify-center items-center lg:max-w-[1536px] font-grotesk font-semibold'>
