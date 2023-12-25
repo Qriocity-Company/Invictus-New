@@ -1,8 +1,18 @@
-.service-div{
+.serviceDiv{
     transition: all 2s ease-in-out;
 }
 .rotate-icon{
 
     transform: rotate(180deg);
     transition: all 0.2s ease-in-out;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-rows: 0fr;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+}
+.open{
+    grid-template-rows: 1fr;
 }

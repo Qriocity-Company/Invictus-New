@@ -5,34 +5,52 @@ import Image from 'next/image'
 import arrow from '../assets/arrow.svg'
 import { usePathname } from 'next/navigation'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const FooterTop = () =>{
+
+    useEffect(() => {
+        AOS.init({
+             duration: 600,
+             once: false,
+             
+           })
+     }, [])
+
     return (
         <div className='bg-white w-full p-8 py-8 md:py-16 block md:flex justify-around relative'>
 
-            <div className='flex flex-col items-center md:items-end font-grotesk font-bold text-[40px] md:text-[80px]'>
+            <div data-aos="flip-up" className='flex flex-col items-center md:items-end font-grotesk font-bold text-[40px] md:text-[80px]'>
                 <h1 className=''>Let's bring your</h1>
                 <h1 className=''>ideas to life</h1>
 
             </div>
 
-            <div className='w-full md:w-auto md:block flex justify-end md:justify-normal mt-6 md:mt-0'>
+            <div data-aos="fade-right" className=' w-full md:w-auto md:block flex justify-end md:justify-normal mt-6 md:mt-0'>
                 <div className=' rounded-full flex justify-center items-center bg-black text-white text-base md:text-lg font-semibold  h-[130px] w-[130px] md:h-[250px] md:w-[250px]  hover:bg-[#0C7D55] hover:scale-110 transition-all duration-500 text-center p-4'>
                     Connect with us
                 </div>
             </div>
-            <Image src={arrow}  alt="img" className='w-[140px] md:w-auto absolute bottom-[22%] md:bottom-[10%] left-[15%] md:left-[52%]'></Image>
+            <Image src={arrow} data-aos="fade-right" alt="img" className='w-[140px] md:w-auto absolute bottom-[22%] md:bottom-[10%] left-[15%] md:left-[52%]'></Image>
         </div>
     )
 }
 
 const FooterBottom = () =>{
    
-    
+    useEffect(() => {
+        AOS.init({
+             duration: 600,
+             once: false,
+             
+           })
+     }, [])
 
     return(
-        <div className="block md:flex w-full text-lg py-4 md:py-8 px-4 md:px-12  font-grotesk font-semibold justify-between">
+        <div  id='anchor' className="block md:flex w-full text-lg py-4 md:py-8 px-4 md:px-12  font-grotesk font-semibold justify-between overflow-hidden">
 
-            <div className='w-[100%] md:w-[50%] flex gap-2 md:gap-0 flex-col justify-between'>
+            <div data-aos="fade-up" data-aos-anchor="#anchor" data-aos-duration="2000" className='w-[100%] md:w-[50%] flex gap-2 md:gap-0 flex-col justify-between'>
 
                 <div>
                     <div className='text-[#ADADAD]'>mail us</div>
@@ -45,7 +63,7 @@ const FooterBottom = () =>{
                 </div>
 
             </div>
-            <div className='mt-6 md:mt-0 grid row-span-2 gap-y-2 md:gap-y-4'>
+            <div data-aos="fade-up" data-aos-duration="1000" className='mt-6 md:mt-0 grid row-span-2 gap-y-2 md:gap-y-4'>
                 <div className='text-[#ADADAD]'>let's be friends</div>
                 <div className='grid grid-cols-3 grid-rows-2 gap-x-12 md:gap-x-40 gap-y-8'>
 

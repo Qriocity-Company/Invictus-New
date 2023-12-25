@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import Image from 'next/image'
 
 import contact from '../../assets/contact-us-img.svg'
+import '../../styles/contact.css'
 const page = () => {
 
   const [formData,setFormData] = useState({name:'',email:'',contact:'',company:'',message:'',budget:''})
@@ -83,7 +84,7 @@ const page = () => {
           </form>
         </div>
         <div className='w-[100%] md:w-[50%] order-1 md:order-2'>
-          <Image src={contact} alt='Contact Us'></Image>
+          <Image src={contact} alt='Contact Us' className='floating'></Image>
         </div>
 
 

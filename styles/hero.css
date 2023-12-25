@@ -26,3 +26,32 @@
 
 
 }
+
+.fizz{
+    animation: fizz 4s ease-in-out infinite;
+}
+@keyframes fizz {
+    0%{
+        bottom: 10%;
+        /* opacity: 0; */
+        /* opacity: 1; */
+        
+    }
+    100%{
+        /* opacity: 0; */
+        bottom:100%;
+       
+    }
+}
+.rotate{
+    animation: rotate 4s ease-in infinite;
+}
+@keyframes rotate {
+    0%{
+        bottom: 10%;
+    }
+    100%{
+        bottom:100%;
+        transform: rotate(360deg);
+    }
+}
