@@ -63,7 +63,7 @@ const Hero = () => {
   }, []); // Run only once on component mount
 
   return (
-    <div className='font-grotesk text-black mt-[4rem] py-8 w-full flex flex-col  items-center relative overflow-hidden'>
+    <div className='font-grotesk text-black mt-[4rem] py-8 w-full flex flex-col  items-center relative overflow-hidden bg-[#FFFDF8]'>
 
         <Image src={heart} className='absolute left-[8%] top-[1%] md:left-[10%] md:top-[5%] h-[30px] md:h-auto  one-time'></Image>
         <Image src={like} className='one-time absolute right-[10%] top-[4%] md:top-[10%] h-[30px] md:h-auto '></Image>

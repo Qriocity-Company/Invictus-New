@@ -32,7 +32,7 @@ const data = [
 
 const SingleProcessDiv=({img,title,content})=>{
     return (
-        <div className='p-6 md:p-12 py-16 md:py-20 border-2 border-b-8 hover:text-black  border-black rounded-[81px] hover:bg-white flex flex-col gap-8 items-center bg-[#0C7D55] hover:scale-[0.98] text-white transition-all duration-500 max-w-[400px] process-div'>
+        <div className='p-6 md:p-12 py-16 md:py-20 border-2 border-b-8 hover:text-black  border-black rounded-[81px] hover:bg-[#FFFDF8] flex flex-col gap-8 items-center bg-[#0C7D55] hover:scale-[0.98] text-white transition-all duration-500 max-w-[400px] process-div'>
 
             <Image src={img} className='process-icon' ></Image>
             <h3 className='text-xl font-bold font-grotesk'>{title}</h3>

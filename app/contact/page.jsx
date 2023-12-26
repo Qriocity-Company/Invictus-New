@@ -33,9 +33,9 @@ const page = () => {
   }
 
   return (
-    <main className='mt-20 w-full flex flex-col justify-center items-center lg:max-w-[1536px] font-grotesk font-semibold'>
+    <main className='mt-20 w-full flex flex-col justify-center items-center lg:max-w-[1536px] font-grotesk font-semibold bg-[#FFFDF8]'>
       
-      <div className='w-[90%] flex  flex-col md:flex-row  px-4 md:px-20 py-8 gap-10'>
+      <div className='w-[90%] flex  flex-col md:flex-row  px-4 md:px-20 py-8 gap-10' id="anchor">
         <div className='w-[100%] md:w-[50%] order-2 md:order-1'>
           <h1 className='w-fit font-grotesk font-black text-[40px] md:text-[65px]'>
             Let's Start Crafting Now

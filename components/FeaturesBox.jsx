@@ -2,7 +2,7 @@ import React from 'react'
 
 const FeaturesBox = () => {
   return (
-    <div className='w-full py-10 md:py-20 flex justify-center items-center'>
+    <div className='w-full py-10 md:py-20 flex justify-center items-center bg-[#FFFDF8]'>
 
         <div className='w-[85%] p-8 md:p-14 grid grid-cols-1 md:grid-cols-3 border-2 border-black rounded-[40px]'>
 

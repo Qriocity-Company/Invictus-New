@@ -16,7 +16,7 @@ import '../../styles/servicePage.css'
 
 const SingleService = ({img,title,content})=>{
     return (
-        <div className='singleService  md:h-auto  block md:flex justify-center items-center gap-10 mt-16 md:mt-20'>
+        <div className='singleService  md:h-auto  block md:flex justify-center items-center gap-10 mt-16 md:mt-20 bg-[#FFFDF8]'>
             <div className='w-[100%] md:w-[50%] h-[180px] md:h-auto flex justify-end'>
                 <Image src={img} alt='.'></Image>
             </div>
@@ -64,7 +64,7 @@ const page = () => {
      }, [])
 
   return (
-    <main className='mt-20 w-full flex flex-col justify-center items-center lg:max-w-[1536px] font-grotesk font-semibold'>
+    <main className='mt-20 w-full flex flex-col justify-center items-center lg:max-w-[1536px] font-grotesk font-semibold bg-[#FFFDF8]'>
         
         <div className='w-[90%] md:w-[70%]  flex-col  md:flex-row flex gap-10 items-center justify-center py-8'>
 

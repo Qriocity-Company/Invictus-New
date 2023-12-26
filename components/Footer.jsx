@@ -19,7 +19,7 @@ const FooterTop = () =>{
      }, [])
 
     return (
-        <div className='bg-white w-full p-8 py-8 md:py-16 block md:flex justify-around relative'>
+        <div className='bg-[#FFFDF8] w-full p-8 py-8 md:py-16 block md:flex justify-around relative'>
 
             <div data-aos="flip-up" className='flex flex-col items-center md:items-end font-grotesk font-[500] text-[40px] md:text-[80px]'>
                 <h1 className=''>Let's bring your</h1>
@@ -48,7 +48,7 @@ const FooterBottom = () =>{
      }, [])
 
     return(
-        <div  id='anchor' className="block md:flex w-full text-lg md:text-2xl py-4 md:py-8 md:pb-12 px-4 md:px-20  font-grotesk font-[500] justify-between overflow-hidden">
+        <div  id='anchor' className="block md:flex w-full text-lg md:text-2xl py-4 md:py-8 md:pb-12 px-4 md:px-20  font-grotesk font-[500] justify-between overflow-hidden bg-[#FFFDF8]">
 
             <div data-aos="fade-up" data-aos-anchor="#anchor" data-aos-duration="2000" className='w-[100%] md:w-[50%] flex gap-2 md:gap-8 flex-col justify-between'>
 
@@ -100,7 +100,7 @@ const Footer = () => {
         if(pathname=='/contact'){
             setShow(false)
         }
-    },[])
+    },[pathname])
 
   return (
     <div className='w-full bg-white'>

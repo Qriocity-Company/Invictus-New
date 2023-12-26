@@ -624,12 +624,6 @@ video {
 .mt-8{
   margin-top: 2rem;
 }
-.mt-\[4\.8rem\]{
-  margin-top: 4.8rem;
-}
-.mt-\[4\.5rem\]{
-  margin-top: 4.5rem;
-}
 .mt-\[4rem\]{
   margin-top: 4rem;
 }
@@ -666,17 +660,14 @@ video {
 .h-\[35vh\]{
   height: 35vh;
 }
-.h-\[430\]{
-  height: 430;
+.h-\[430px\]{
+  height: 430px;
 }
 .h-\[60vh\]{
   height: 60vh;
 }
 .h-\[70px\]{
   height: 70px;
-}
-.h-\[430px\]{
-  height: 430px;
 }
 .w-\[100\%\]{
   width: 100%;
@@ -690,9 +681,6 @@ video {
 .w-\[140px\]{
   width: 140px;
 }
-.w-\[50\%\]{
-  width: 50%;
-}
 .w-\[80\%\]{
   width: 80%;
 }
@@ -705,15 +693,15 @@ video {
 .w-\[90\%\]{
   width: 90%;
 }
+.w-auto{
+  width: auto;
+}
 .w-fit{
   width: -moz-fit-content;
   width: fit-content;
 }
 .w-full{
   width: 100%;
-}
-.w-auto{
-  width: auto;
 }
 .max-w-\[400px\]{
   max-width: 400px;
@@ -834,23 +822,17 @@ video {
 .border-b{
   border-bottom-width: 1px;
 }
+.border-b-2{
+  border-bottom-width: 2px;
+}
 .border-b-8{
   border-bottom-width: 8px;
 }
 .border-b-\[1px\]{
   border-bottom-width: 1px;
 }
-.border-l-2{
-  border-left-width: 2px;
-}
-.border-r-2{
-  border-right-width: 2px;
-}
 .border-t{
   border-top-width: 1px;
-}
-.border-b-2{
-  border-bottom-width: 2px;
 }
 .border-t-2{
   border-top-width: 2px;
@@ -882,6 +864,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(217 217 217 / var(--tw-bg-opacity));
 }
+.bg-\[\#FFFDF8\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 253 248 / var(--tw-bg-opacity));
+}
 .bg-black{
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -900,9 +886,6 @@ video {
 }
 .to-\[\#22c88e\]{
   --tw-gradient-to: #22c88e var(--tw-gradient-to-position);
-}
-.p-14{
-  padding: 3.5rem;
 }
 .p-2{
   padding: 0.5rem;
@@ -947,13 +930,13 @@ video {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
-.py-20{
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 .py-8{
   padding-top: 2rem;
@@ -962,10 +945,6 @@ video {
 .py-\[1rem\]{
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-.py-6{
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
 }
 .pb-16{
   padding-bottom: 4rem;
@@ -996,10 +975,6 @@ video {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
-}
 .text-\[24px\]{
   font-size: 24px;
 }
@@ -1020,12 +995,6 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-.text-\[60px\]{
-  font-size: 60px;
-}
-.text-\[45px\]{
-  font-size: 45px;
 }
 .font-\[400\]{
   font-weight: 400;
@@ -1053,12 +1022,6 @@ video {
 }
 .leading-\[3\.5rem\]{
   line-height: 3.5rem;
-}
-.leading-\[7rem\]{
-  line-height: 7rem;
-}
-.leading-5{
-  line-height: 1.25rem;
 }
 .leading-\[4rem\]{
   line-height: 4rem;
@@ -1115,6 +1078,7 @@ video {
 }
 
 body{
+    background-color: #FFFDF8;
     overflow-x: hidden;
 }
 
@@ -1143,6 +1107,11 @@ body{
 .hover\:bg-white:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#FFFDF8\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 253 248 / var(--tw-bg-opacity));
 }
 
 .hover\:text-black:hover{
@@ -1300,12 +1269,12 @@ body{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .md\:grid-cols-4{
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
   .md\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .md\:grid-rows-2{
@@ -1350,16 +1319,16 @@ body{
     row-gap: 2rem;
   }
 
+  .md\:border-b-0{
+    border-bottom-width: 0px;
+  }
+
   .md\:border-l-2{
     border-left-width: 2px;
   }
 
   .md\:border-r-2{
     border-right-width: 2px;
-  }
-
-  .md\:border-b-0{
-    border-bottom-width: 0px;
   }
 
   .md\:border-t-0{
@@ -1374,16 +1343,16 @@ body{
     padding: 3rem;
   }
 
+  .md\:p-14{
+    padding: 3.5rem;
+  }
+
   .md\:p-16{
     padding: 4rem;
   }
 
   .md\:p-5{
     padding: 1.25rem;
-  }
-
-  .md\:p-14{
-    padding: 3.5rem;
   }
 
   .md\:px-10{
@@ -1411,6 +1380,11 @@ body{
     padding-right: 48px;
   }
 
+  .md\:py-0{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .md\:py-16{
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -1424,11 +1398,6 @@ body{
   .md\:py-8{
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-
-  .md\:py-0{
-    padding-top: 0px;
-    padding-bottom: 0px;
   }
 
   .md\:pb-12{
