@@ -44,7 +44,7 @@ const Services = () => {
       <div className='mt-4 w-[90%] md:w-[60%]'>
       {servicesData.map((item, index) => (
         
-        <div key={index} className={`transform my-4 p-4 bg-white text-black border-2 border-gray-300 transition-all ${(openIndex==index)?'h-[430] md:h-[280px] ':'h-[100px] md:h-[120px]'}`}>
+        <div key={index} className={`transform my-4 p-4 bg-white text-black border-4 border-gray-300 transition-all duration-1000 ${(openIndex==index)?'h-[430] md:h-[280px] ':'h-[100px] md:h-[120px]'}`}>
           <div
             className="flex justify-between items-center  p-4 cursor-pointer "
             onClick={() => toggleAccordion(index)}
@@ -70,7 +70,7 @@ const Services = () => {
             </div>
           </div>
           
-          <div className={` ${(openIndex==index)?'block':'hidden' } p-5  md:px-10 pb-16  border-t border-gray-300 relative`}>
+          <div className={` ${(openIndex==index)?'block':'hidden' } fade-in p-5  md:px-10 pb-16  border-t border-gray-300 relative`}>
             <p className="text-gray-500">{item.content}</p>
             <button className='bg-[#0C7D55] text-white py-2 px-4 md:px-8 rounded-[40px] border-none absolute right-[5%] bottom-[3.5%] md:bottom-[5%]'>Know More</button>
           </div>

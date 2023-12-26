@@ -78,7 +78,7 @@ const page = () => {
               </div>
             </div>
             
-            <button className='bg-[#0C7D55] text-white py-2 px-8 rounded-[40px] border-none text-xl w-fit' type='submit'>Let's do it</button>
+            <button id='anchor' className='bg-[#0C7D55] text-white py-2 px-8 rounded-[40px] border-none text-xl w-fit' type='submit'>Let's do it</button>
 
 
           </form>

@@ -16,12 +16,12 @@ import '../../styles/servicePage.css'
 
 const SingleService = ({img,title,content})=>{
     return (
-        <div className='md:h-[90vh] block md:flex justify-center items-center gap-10 mt-16 md:mt-0'>
+        <div className='singleService  md:h-auto  block md:flex justify-center items-center gap-10 mt-16 md:mt-20'>
             <div className='w-[100%] md:w-[50%] h-[180px] md:h-auto flex justify-end'>
                 <Image src={img} alt='.'></Image>
             </div>
             <div className='w-[100%] md:w-[50%] mt-6 md:mt-0'>
-                <h2 className='font-onest text-3xl md:text-[50px]'>{title}</h2>
+                <h2 className='font-onest text-3xl md:text-[50px] leading-[3.5rem]'>{title}</h2>
                 <p className='mt-4 text-lg md:text-2xl'>{content}</p>
             </div>
 
@@ -89,7 +89,7 @@ const page = () => {
 
         <div className='flex  flex-col md:flex-row md:gap-12 w-[80%] py-16  '>
 
-                <div className='flex md:h-[90vh] flex-col gap-4 w-[100%] md:w-[30%] md:sticky self-start top-[10%]'>
+                <div className='flex md:h-[90vh] flex-col gap-4 w-[100%] md:w-[30%] md:sticky self-start top-[14%]'>
                     <h1 className='font-black text-[40px] md:text-[65px]'>What we do?</h1>
                     <p className='text-lg md:text-2xl'>
                     We conceptualize, design, and ship digital products and services. Beyond websites and applications, we make interactive environments and deliver innovative user experiences.

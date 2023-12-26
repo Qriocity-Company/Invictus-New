@@ -30,7 +30,7 @@ const data = [
 
 const SingleProcessDiv=({img,title,content})=>{
     return (
-        <div className='p-6 md:p-12 py-16 md:py-20 border-2 border-b-8 text-black  border-black rounded-[81px] bg-white flex flex-col gap-8 items-center hover:bg-[#0C7D55] hover:scale-[0.98] hover:text-white transition-all duration-500'>
+        <div className='p-6 md:p-12 py-16 md:py-20 border-2 border-b-8 text-black  border-black rounded-[81px] bg-white flex flex-col gap-8 items-center hover:bg-[#0C7D55] hover:scale-[0.98] hover:text-white transition-all duration-500 max-w-[400px]'>
 
             <Image src={img}></Image>
             <h3 className='text-xl font-bold '>{title}</h3>
@@ -45,7 +45,7 @@ const Process = () => {
 
         <div className='p-4 px-12 border-4 border-gray-300 rounded-[40px] w-fit text-lg  md:text-3xl text-black font-semibold '>Our Process</div>
 
-        <div className='grid grid-rows-4 gap-y-6 md:gap-y-0 md:grid-cols-4 w-[90%] gap-4 mt-12'>
+        <div className='grid grid-rows-4 gap-y-6  lg:gap-y-0  md:grid-rows-2 md:grid-cols-2  lg:grid-rows-1 lg:grid-cols-4 w-[90%] gap-4 mt-12 '>
 
             {
                 data.map((process,index)=>{

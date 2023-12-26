@@ -28,7 +28,7 @@ const FooterTop = () =>{
             </div>
 
             <div data-aos="fade-right" className=' w-full md:w-auto md:block flex justify-end md:justify-normal mt-6 md:mt-0'>
-                <div className=' rounded-full flex justify-center items-center bg-black text-white text-base md:text-lg font-semibold  h-[130px] w-[130px] md:h-[250px] md:w-[250px]  hover:bg-[#0C7D55] hover:scale-110 transition-all duration-500 text-center p-4'>
+                <div className='font-grotesk rounded-full flex justify-center items-center bg-black text-white text-base md:text-2xl font-semibold  h-[130px] w-[130px] md:h-[250px] md:w-[250px]  hover:bg-[#0C7D55] hover:scale-110 transition-all duration-500 text-center p-4'>
                     Connect with us
                 </div>
             </div>
@@ -48,22 +48,30 @@ const FooterBottom = () =>{
      }, [])
 
     return(
-        <div  id='anchor' className="block md:flex w-full text-lg py-4 md:py-8 px-4 md:px-12  font-grotesk font-semibold justify-between overflow-hidden">
+        <div  id='anchor' className="block md:flex w-full text-2xl py-4 md:py-8 md:pb-12 px-4 md:px-20  font-grotesk font-semibold justify-between overflow-hidden">
 
-            <div data-aos="fade-up" data-aos-anchor="#anchor" data-aos-duration="2000" className='w-[100%] md:w-[50%] flex gap-2 md:gap-0 flex-col justify-between'>
+            <div data-aos="fade-up" data-aos-anchor="#anchor" data-aos-duration="2000" className='w-[100%] md:w-[50%] flex gap-2 md:gap-8 flex-col justify-between'>
 
-                <div>
+                <div className='flex flex-col gap-4'>
                     <div className='text-[#ADADAD]'>mail us</div>
                     <div>info@invictus.com</div>
                 </div>
 
-                <div>
+                <div className='flex flex-col gap-4'>
                     <div className='text-[#ADADAD]'>even better, call us</div>
-                    <div>+91-9944878589 +91-7530070101</div>
+                    <div className='flex gap-8'>
+                        <div>
+                        +91-9944878589
+                        </div>
+                        <div>
+                        +91-7530070101
+                        </div>
+                    </div>
+                    
                 </div>
 
             </div>
-            <div data-aos="fade-up" data-aos-duration="1000" className='mt-6 md:mt-0 grid row-span-2 gap-y-2 md:gap-y-4'>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-anchor="#anchor" className='mt-6 md:mt-0 grid row-span-2 gap-y-2 md:gap-y-4'>
                 <div className='text-[#ADADAD]'>let's be friends</div>
                 <div className='grid grid-cols-3 grid-rows-2 gap-x-12 md:gap-x-40 gap-y-8'>
 

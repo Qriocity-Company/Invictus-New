@@ -28,7 +28,7 @@
 }
 
 .fizz{
-    animation: fizz 4s ease-in-out infinite;
+    animation: fizz 3s ease-in-out infinite;
 }
 @keyframes fizz {
     0%{
@@ -44,11 +44,24 @@
     }
 }
 .rotate{
-    animation: rotate 4s ease-in infinite;
+    animation: rotate 3s ease-in infinite;
 }
 @keyframes rotate {
     0%{
         bottom: 10%;
+    }
+    100%{
+        bottom:100%;
+        transform: rotate(360deg);
+    }
+}
+
+.one-time{
+    animation: oneTime 2s  ease-in forwards;
+}
+@keyframes oneTime {
+    0%{
+        /* bottom: 10%; */
     }
     100%{
         bottom:100%;

@@ -8,7 +8,7 @@ import Testimonials from '@/components/Testimonials'
 
 export default function Home() {
   return (
-    <main className=' w-full flex flex-col justify-center items-center lg:max-w-[1536px]'>
+    <main className=' w-full flex flex-col justify-center items-center '>
       
       <Hero/>
       <Services/>

@@ -14,12 +14,15 @@ const Hero = () => {
 
   useEffect(() => {
     const generateRandomCircles = () => {
-      const numberOfCircles = 15; 
+      // const numberOfCircles = 15; 
+      const screenWidth = typeof window !== 'undefined' ? window.innerWidth : 0;
+      const numberOfCircles = screenWidth < 600 ? 8 : 15;
       const newCircles = [];
       const horizontalGaps = 30; 
 
       for (let i = 0; i < numberOfCircles; i++) {
         const randomHorizontalPosition = `${Math.random() * 99}%`;
+        const randomVerticalPosition=`${Math.random() * 99}%`;
         const randomVerticalDelay = `${Math.random() * 3000}ms`;
 
         // Randomly choose one of the three images
@@ -34,6 +37,24 @@ const Hero = () => {
             style={{ left: randomHorizontalPosition, animationDelay: randomVerticalDelay }}
           />
         );
+      }
+      for(let i=0;i<6;i++){
+        const randomHorizontalPosition = `${Math.random() * 99}%`;
+        const randomVerticalPosition = `${Math.random() * 40 + 30}%`;
+        const randomVerticalDelay = `${Math.random() * 1000}ms`;
+
+        const randomImage = Math.random() < 0.33 ? dollar : Math.random() < 0.5 ? heart : like;
+        const rotateClass = Math.random() < 0.5 ? 'rotate' : '';
+
+        newCircles.push(
+          <Image
+            key={i}
+            src={randomImage}
+            className={`absolute one-time  h-[30px] md:h-auto ${rotateClass}`}
+            style={{ left: randomHorizontalPosition, bottom:randomVerticalPosition ,  animationDelay: randomVerticalDelay }}
+          />
+        );
+
       }
       setCircles(newCircles);
     };
