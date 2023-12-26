@@ -48,7 +48,7 @@ const FooterBottom = () =>{
      }, [])
 
     return(
-        <div  id='anchor' className="block md:flex w-full text-2xl py-4 md:py-8 md:pb-12 px-4 md:px-20  font-grotesk font-semibold justify-between overflow-hidden">
+        <div  id='anchor' className="block md:flex w-full text-lg md:text-2xl py-4 md:py-8 md:pb-12 px-4 md:px-20  font-grotesk font-semibold justify-between overflow-hidden">
 
             <div data-aos="fade-up" data-aos-anchor="#anchor" data-aos-duration="2000" className='w-[100%] md:w-[50%] flex gap-2 md:gap-8 flex-col justify-between'>
 
