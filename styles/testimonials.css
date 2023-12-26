@@ -47,6 +47,7 @@
   cursor: pointer;
   position: absolute;
   top: 50%;
+  transform: translateY(-50%);
   width: auto;
   
   color: white;
@@ -111,12 +112,11 @@
 
 /* Fading animation */
 .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+  animation: fade 1.5s ease-in;
 }
 
 @keyframes fade {
-  from {opacity: .4}
+  from {opacity: 0.1}
   to {opacity: 1}
 }
 
@@ -170,7 +170,7 @@
 @media screen and (max-width: 600px) {
   .outer-container{
     width: 100%;
-    margin: 16% 0;
+    margin: 6% 0;
   }
   .testimonial-header{
     font-size: 40px;

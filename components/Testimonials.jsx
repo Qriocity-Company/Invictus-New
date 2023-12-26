@@ -74,8 +74,8 @@ const TestimonialCompanies = () =>{
         {
           companyImages.map((company,index)=>{
             return(
-                  <div data-aos="fade-up-left" className='w-full h-[100px] md:h-[150px] flex items-center justify-center hover:-translate-y-4 transition-all duration-300 ' key={index} >
-                    <Image src={company.img}></Image>
+                  <div data-aos="fade-up" className='w-full h-[100px] md:h-[150px] flex items-center justify-center ' key={index} >
+                    <Image src={company.img} className='hover:-translate-y-4 transition-all duration-300 '></Image>
 
                   </div>
                 )
@@ -113,19 +113,19 @@ const Testimonials = () => {
 
   return (
     <div className=' mt-12 w-full pb-4 md:pb-16 py-8 md:py-16 flex flex-col items-center gap-4 bg-black text-white '>
-      <div className='p-4 px-12 border-2 border-white rounded-[40px] w-fit text-3xl font-semibold '>Testimonials</div>
-      <div className='flex gap-4 justify-center font-grotesk mt-4'>
-        <h1 className='text-4xl font-bold'>What People</h1>
-        <h1 className='text-4xl font-bold text-[#0C9363]'>love in us</h1>
+      <div className='p-4 px-12 border-2 border-white rounded-[40px] w-fit text-lg md:text-3xl  font-onest font-semibold '>Testimonials</div>
+      <div className='flex gap-2 justify-center font-grotesk mt-4'>
+        <h1 className='text-3xl md:text-5xl font-bold'>What People</h1>
+        <h1 className='text-3xl md:text-5xl font-bold text-[#0C9363]'>love in us</h1>
       </div>
-      <div className="outer-container bg-[#333333] ">
+      <div className="outer-container bg-[#333333] h-[35vh]">
         <div className="slideshow-container">
           {testimonialsData.map((testimonial, index) => (
             <div key={index} className="mySlides fade">
-              <div className="content">
-                <p>{testimonial.quote}</p>
+              <div className="content text-center ">
+                <p className='font-[400] font-onest'>{testimonial.quote}</p>
                 <div className="credentials">
-                  <div className='text-center'>- {testimonial.author}</div>
+                  <div className='text-center font-black font-onest'>- {testimonial.author}</div>
                 </div>
               </div>
             </div>

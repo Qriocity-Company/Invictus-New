@@ -39,12 +39,12 @@ const Services = () => {
   return (
     <div className="relative w-full flex flex-col items-center py-2 md:py-8">
 
-      <div className='p-4 px-12 border-4 border-gray-300 rounded-[40px] w-fit text-lg md:text-3xl text-black font-semibold '>Our Services</div>
+      <div className='p-4 px-12 border-4 border-gray-300 rounded-[40px] w-fit text-lg md:text-3xl text-black font-semibold  font-onest'>Our Services</div>
 
       <div className='mt-4 w-[90%] md:w-[60%]'>
       {servicesData.map((item, index) => (
         
-        <div key={index} className={`transform my-4 p-4 bg-white text-black border-4 border-gray-300 transition-all duration-1000 ${(openIndex==index)?'h-[430] md:h-[280px] ':'h-[100px] md:h-[120px]'}`}>
+        <div key={index} className={`transform my-4 p-4 bg-white text-black border-2 border-gray-300 transition-all duration-1000 ${(openIndex==index)?'h-[430px] md:h-[280px] ':'h-[100px] md:h-[120px]'}`}>
           <div
             className="flex justify-between items-center  p-4 cursor-pointer "
             onClick={() => toggleAccordion(index)}
