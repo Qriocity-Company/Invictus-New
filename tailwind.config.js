@@ -14,7 +14,8 @@ module.exports = {
       },
       fontFamily:{
         grotesk:['var(--font-grotesk)'],
-        onest:["Onest","sans-serif"]
+        onest:["Onest","sans-serif"],
+        sketch:["Cabin Sketch","sans-serif"]
       }
     },
   },
