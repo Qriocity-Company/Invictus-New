@@ -28,7 +28,7 @@ const FooterTop = () =>{
             </div>
 
             <div data-aos="fade-right" className=' w-full md:w-auto md:block flex justify-end md:justify-normal mt-6 md:mt-0'>
-                <div className='font-grotesk rounded-full flex justify-center items-center bg-black text-white text-base md:text-2xl font-semibold  h-[130px] w-[130px] md:h-[250px] md:w-[250px]  hover:bg-[#0C7D55] hover:scale-110 transition-all duration-500 text-center p-4'>
+                <div className='font-grotesk rounded-full flex justify-center items-center bg-black text-white text-base md:text-2xl font-semibold  h-[130px] w-[130px] md:h-[250px] md:w-[250px]  hover:bg-[#0C7D55] hover:scale-105 transition-all duration-500 text-center p-4'>
                     Connect with us
                 </div>
             </div>
@@ -75,12 +75,12 @@ const FooterBottom = () =>{
                 <div className='text-[#ADADAD]'>let's be friends</div>
                 <div className='grid grid-cols-3 grid-rows-2 gap-x-12 md:gap-x-40 gap-y-8'>
 
-                    <a href="">Facebook</a>
-                    <a href="" >Instagram</a>
-                    <a href="" >Youtube</a>
-                    <a href="" >Linkedin</a>
-                    <a href="" >Twitter</a>
-                    <a href="" >Quora</a>
+                    <a href="" className='hover:text-[#17A9FD] hover:scale-105 transition-all duration-300'>Facebook</a>
+                    <a href="" className='hover:text-[#833AB4] hover:scale-105 transition-all duration-300'>Instagram</a>
+                    <a href="" className='hover:text-[#FF0000] hover:scale-105 transition-all duration-300'>Youtube</a>
+                    <a href="" className='hover:text-[#0A66C2] hover:scale-105 transition-all duration-300'>Linkedin</a>
+                    <a href="" className='hover:scale-105 transition-all duration-300'>X</a>
+                    <a href="" className='hover:text-[#B92B27] hover:scale-105 transition-all duration-300'>Quora</a>
 
                 </div>
             </div>

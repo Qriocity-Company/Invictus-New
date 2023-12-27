@@ -269,6 +269,13 @@
   bottom: 0;
 }
 
+.company{
+  filter: brightness(30%);
+}
+.company:hover{
+  filter: brightness(100%);
+}
+
 @media screen and (max-width: 1024px) {
   .outer-container{
     width: 100%;

@@ -45,7 +45,7 @@ const Process = () => {
   return (
     <div className='mt-12 w-full py-4 flex flex-col items-center gap-4'>
 
-        <div className='p-4 px-12 border-4 border-gray-300 rounded-[40px] w-fit text-lg  md:text-3xl text-black font-semibold font-onest '>Our Process</div>
+        <div className='p-4 px-12 border-2 border-[#D5D5D5] rounded-[40px] w-fit text-lg md:text-3xl text-black font-semibold  font-onest'>Our Process</div>
 
         <div className='grid grid-rows-4 gap-y-6  lg:gap-y-0  md:grid-rows-2 md:grid-cols-2  lg:grid-rows-1 lg:grid-cols-4 w-[90%] gap-4 mt-12 '>
 

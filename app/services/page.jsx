@@ -35,12 +35,12 @@ const page = () => {
     const servicesData = [
         {
           img:social,
-          title: 'Social Media Merketing',
+          title: 'Social Media Marketing',
           content: "Social media marketing focuses on promoting brands and products on various social media platforms. It's about creating engaging content, managing social media profiles, and running social media advertisements to enhance brand presence and engagement with the target audience."
         },
         {
             img:performance,
-          title: 'Performance Marketting',
+          title: 'Performance Marketing',
           content: "Through targeted advertising, analytics, and strategic planning, we focus on enhancing your brand's performance across various channels. Our ultimate goal is to maximize your return on investment (ROI) by analyzing real-time data and making strategic adjustments to campaigns. This ensures that your marketing efforts are not just impactful but also highly efficient in achieving your business objectives."
         },
         {

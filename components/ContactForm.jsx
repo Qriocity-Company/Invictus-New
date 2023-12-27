@@ -40,7 +40,7 @@ const ContactForm = () => {
           <h1 className='w-fit font-grotesk font-black text-[40px] md:text-[90px] leading-[95px]'>
             Let's Start Crafting Now
           </h1>
-          <form className='grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 md:gap-y-8 mt-4' onSubmit={onsubmit}>
+          <form className='grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 md:gap-y-8 mt-8' onSubmit={onsubmit}>
 
             <div className='flex flex-col gap-2'>
               <label htmlFor="" className='text-xl'>Your Name</label>

@@ -7,6 +7,9 @@
     scroll-snap-stop:always;
 }
 
-.singleService:first-child{
-    margin-top: 1rem;
-}
+@media only screen and (min-width: 769px) {
+    .singleService:first-child{
+        margin-top: 40%;
+    }
+    
+  }

@@ -75,7 +75,7 @@ const TestimonialCompanies = () =>{
           companyImages.map((company,index)=>{
             return(
                   <div data-aos="fade-up" className='w-full h-[100px] md:h-[150px] flex items-center justify-center ' key={index} >
-                    <Image src={company.img} className='hover:-translate-y-4 transition-all duration-300 '></Image>
+                    <Image src={company.img} className=' company hover:-translate-y-2 transition-all duration-300 '></Image>
 
                   </div>
                 )
@@ -113,7 +113,7 @@ const Testimonials = () => {
 
   return (
     <div className=' mt-12 w-full pb-4 md:pb-16 py-8 md:py-16 flex flex-col items-center gap-4 bg-black text-white '>
-      <div className='p-4 px-12 border-2 border-white rounded-[40px] w-fit text-lg md:text-3xl  font-onest font-semibold '>Testimonials</div>
+      <div className='p-4 px-12 border-2 border-[#D5D5D5] rounded-[40px] w-fit text-lg md:text-3xl text-white font-semibold  font-onest'>Testimonials</div>
       <div className='flex gap-2 justify-center font-grotesk mt-4'>
         <h1 className='text-3xl md:text-5xl font-bold'>What People</h1>
         <h1 className='text-3xl md:text-5xl font-bold text-[#0C9363]'>love in us</h1>
