@@ -21,8 +21,8 @@ const SingleService = ({img,title,content})=>{
                 <Image src={img} alt='.'></Image>
             </div>
             <div className='w-[100%] md:w-[50%] mt-6 md:mt-0'>
-                <h2 className='font-onest text-3xl md:text-[50px] leading-[3.5rem]'>{title}</h2>
-                <p className='mt-4 text-lg md:text-2xl'>{content}</p>
+                <h2 className='font-onest text-2xl md:text-[30px] leading-[2.5rem]'>{title}</h2>
+                <p className='mt-4 text-lg md:text-[20px]'>{content}</p>
             </div>
 
         </div>
@@ -64,16 +64,16 @@ const page = () => {
      }, [])
 
   return (
-    <main className='mt-20 w-full flex flex-col justify-center items-center lg:max-w-[1536px] font-grotesk font-semibold bg-[#FFFDF8]'>
+    <main className='mt-16 w-full flex flex-col justify-center items-center lg:max-w-[1536px] font-grotesk font-semibold bg-[#FFFDF8]'>
         
-        <div className='w-[90%] md:w-[70%]  flex-col  md:flex-row flex gap-10 items-center justify-center py-8'>
+        <div className='w-[90%] md:w-[80%]  flex-col  md:flex-row flex gap-10 items-center justify-center py-8'>
 
             <div className='w-full md:w-[50%] order-2 md:order-1'>
-                <h1 className='w-fit font-grotesk font-black text-[40px] md:text-[70px]'>
+                <h1 className='w-fit font-grotesk font-black text-[40px] md:text-[90px] md:leading-[5.5rem]'>
                     Explore Our Services
                 </h1>
                 
-                <p className='text-3xl'>
+                <p className='text-[30px] my-6'>
                 We really are obsessed with creating delightful digital products, brands, and experiences.
                 </p>
 
@@ -87,19 +87,19 @@ const page = () => {
         </div>
 
 
-        <div className='flex  flex-col md:flex-row md:gap-12 w-[80%] py-16  '>
+        <div className='flex  flex-col md:justify-between md:flex-row md:gap-16 w-[80%] py-16  '>
 
                 <div className='flex md:h-[90vh] flex-col gap-4 w-[100%] md:w-[30%] md:sticky self-start top-[14%]'>
-                    <h1 className='font-black text-[40px] md:text-[65px]'>What we do?</h1>
-                    <p className='text-lg md:text-2xl'>
+                    <h1 className='md:w-[80%] font-[800] text-[40px] md:text-[90px] leading-[5.5rem]'>What we do?</h1>
+                    <p className='text-lg md:text-[30px] font-[500]'>
                     We conceptualize, design, and ship digital products and services. Beyond websites and applications, we make interactive environments and deliver innovative user experiences.
                     </p>
-                    <p className='text-lg md:text-2xl'>
+                    <p className='text-lg md:text-[30px] font-[500]'>
                     First, we'll collborate to show the world your best self. Then, we'll help other people understand why your business is exactly what they're looking for.
                     </p>
                 </div>
                 
-                <div className='w-[100%] md:w-[70%] mt-12 md:mt-0'>
+                <div className='w-[100%] md:w-[60%] mt-12 md:mt-0'>
                     
                     {
                         servicesData.map((service,index)=>{
