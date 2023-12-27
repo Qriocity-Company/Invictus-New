@@ -41,10 +41,10 @@ const Services = () => {
 
       <div className='p-4 px-12 border-4 border-gray-300 rounded-[40px] w-fit text-lg md:text-3xl text-black font-semibold  font-onest'>Our Services</div>
 
-      <div className='mt-4 w-[90%] md:w-[60%]'>
+      <div className='mt-4 w-[90%] md:w-[55%]'>
       {servicesData.map((item, index) => (
         
-        <div key={index} className={`transform my-4 p-4 bg-[#FFFDF8] text-black border-2 border-gray-300 transition-all duration-1000 ${(openIndex==index)?'h-[430px] md:h-[280px] ':'h-[100px] md:h-[120px]'}`}>
+        <div key={index} className={`transform my-4 p-4 bg-[#FFFDF8] text-black border-2 border-gray-300 transition-all duration-1000 ${(openIndex==index)?'h-[430px] md:h-[300px] ':'h-[100px] md:h-[120px]'}`}>
           <div
             className="flex justify-between items-center  p-4 cursor-pointer "
             onClick={() => toggleAccordion(index)}

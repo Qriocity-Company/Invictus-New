@@ -75,11 +75,11 @@ const Hero = () => {
         <Image src={heart} className='one-time absolute left-[8%] top-[50%] md:left-[10%] md:top-[50%] h-[30px] md:h-auto '></Image>
 
 
-        <h2 className='font-onest mt-6  text-lg md:text-3xl  text-center md:text-left'>ELEVATING BRANDS, ACCELERATING SALES</h2>
-        <div className="flex h-[70px] md:h-[110px] gap-3 text-center justify-center overflow-hidden ease-in-out ">
-            <p className="w-fit font-grotesk font-black text-[40px] md:text-[85px]">Together We </p>
+        <h2 className='font-onest mt-3  text-lg md:text-3xl  text-center md:text-left'>ELEVATING BRANDS, ACCELERATING SALES</h2>
+        <div className="flex h-[70px] md:h-[140px] gap-3 text-center justify-center overflow-hidden ease-in-out ">
+            <p className="w-fit font-grotesk font-black text-[40px] md:text-[105px]">Together We </p>
             
-            <div className="font-grotesk font-black text-[40px] md:text-[85px]">
+            <div className="font-grotesk font-black text-[40px] md:text-[105px]">
                 <span className="wordspins  block" >Craft</span>
                 <span className="wordspins block">Build</span>
                 <span className="wordspins block">Grow</span>
