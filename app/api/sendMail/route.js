@@ -8,7 +8,7 @@ export async function POST (request){
 
     console.log("data received in backend:",data);
 
-    const {name,email,contact,company,message,budget} = data;
+    const {name,email,contact,message,service} = data;
     
     try {
         await resend.emails.send({
@@ -20,8 +20,7 @@ export async function POST (request){
             <p>The senders email is: ${email}</p>
             <p>The Sender Mobile no is :${contact}</p> <br/> 
             <p>The message is: ${message}</p>
-            <p>Company is: ${company}</p>
-            <p>Budget is: ${budget}</p>
+            <p>Service Required is: ${service}</p>
                 `,
         });
         } catch (e) {

@@ -64,7 +64,7 @@ const page = () => {
      }, [])
 
   return (
-    <main className='mt-16 w-full flex flex-col justify-center items-center lg:max-w-[1536px] font-grotesk font-[500] bg-[#FFFDF8]'>
+    <main className='mt-16 w-full flex flex-col justify-center items-center lg:max-w-[1536px] font-grotesk font-[500] bg-[#FFFDF8] '>
         
         <div className='w-[90%] md:w-[80%]  flex-col  md:flex-row flex gap-10 items-center justify-center py-8'>
 
