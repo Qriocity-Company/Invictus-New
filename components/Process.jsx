@@ -35,8 +35,8 @@ const SingleProcessDiv=({img,title,content})=>{
         <div className='p-6 md:p-12 py-12 md:py-20 border-2 border-b-8 hover:text-black  border-black rounded-[47px] md:rounded-[81px] hover:bg-[#FFFDF8] flex flex-col gap-4 md:gap-8 items-center bg-[#0C7D55] hover:scale-[0.98] text-white transition-all duration-500 max-w-[400px] process-div'>
 
             <Image src={img} className='process-icon h-[35px] md:h-auto' ></Image>
-            <h3 className='text-[13px] md:text-xl font-bold font-grotesk'>{title}</h3>
-            <p className='text-[8px] text-center font-onest'>{content}</p>
+            <h3 className='text-[13px] md:text-2xl font-bold font-grotesk'>{title}</h3>
+            <p className='text-[8px] md:text-base text-center font-onest'>{content}</p>
         </div>
     )
 }
