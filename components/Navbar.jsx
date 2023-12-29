@@ -21,7 +21,7 @@ export const Navbar = () => {
       <div className="hidden md:flex gap-12 text-black font-Sg justify-between items-center">
         <Link href="/">Home</Link>
         <Link href="/about">About Us</Link>
-        {/* <Link href="/portfolio">Portfolio</Link> */}
+        <Link href="/portfolio">Portfolio</Link>
         <Link href="/services">Our Services</Link>
         <Link href="/contact" className="">Contact Us</Link>
       </div>

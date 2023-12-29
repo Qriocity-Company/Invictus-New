@@ -1,0 +1,23 @@
+
+.v-line{
+    width: 1px;
+    height: 100%;
+    position: absolute;
+   
+    top: 0%;
+    background-color: #0C7D55;
+}
+
+li {
+    position: relative;
+   
+    display: flex;
+    align-items: center;
+  }
+  
+  li::before {
+    content: '\2022';
+    color: #0C7D55; 
+    font-size: 4rem; 
+    margin-right: 10px; 
+  }
