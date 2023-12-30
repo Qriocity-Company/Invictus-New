@@ -19,12 +19,15 @@ const QriocityDiv=()=>{
                 <div className='bg-[#F15A29] rounded-[18px] py-28 flex items-center justify-center'>
                     <Image src={qriocityImg} alt='qriocity'></Image>
                 </div>
-                <div className='flex items-center gap-3 md:gap-6 mt-4 md:mt-8'>
-                    <h2 className='font-[800] text-[30px] md:text-[48px] md:leading-[60px]'>Qriocity</h2>
-                    <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>EDUCATION</span>
-                    <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>EDUTECH</span>
-                    
+                <div className='flex flex-col md:flex-row items-left  md:items-center gap-2 md:gap-6 mt-4 md:mt-8'>
 
+                    <div className='flex order-2 md:order-1'>
+                        <h2 className='font-[800] text-[30px] md:text-[48px] md:leading-[60px]'>Qriocity</h2>
+                    </div>
+                    <div className='flex md:gap-6 gap-3 md:order-2 order-1'>
+                        <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>EDUCATION</span>
+                        <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>EDUTECH</span>
+                    </div>
                 </div>
                 <div className='font-[600] text-[20px] md:text-[30px] mt-1'>
                     Social Media Ads / Paid Ads
@@ -34,14 +37,17 @@ const QriocityDiv=()=>{
                 <div className='bg-[#958F38] rounded-[18px] py-14 flex items-center justify-center'>
                     <Image src={builders} alt='qriocity'></Image>
                 </div>
-                <div className='flex items-center gap-6 mt-8'>
-                    <h2 className='font-[800] text-[30px] md:text-[48px] md:leading-[60px]'>VGK Builders</h2>
-                    <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>REAL-ESTATE</span>
-                    <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>INFRASTRUCTURE</span>
-                    
+                <div className='flex flex-col md:flex-row items-left  md:items-center gap-2 md:gap-6 mt-4 md:mt-8'>
 
+                    <div className='flex order-2 md:order-1'>
+                        <h2 className='font-[800] text-[30px] md:text-[48px] md:leading-[60px]'>VGK Builders</h2>
+                    </div>
+                    <div className='flex md:gap-6 gap-3 md:order-2 order-1'>
+                        <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>REAL-ESTATE</span>
+                        <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>INFRASTRUCTURE</span>
+                    </div>
                 </div>
-                <div className='font-[600] text-[30px] mt-1'>
+                <div className='font-[600] text-[20px] md:text-[30px] mt-1'>
                 Social Media Ads / Branding
                 </div>
             </div>
@@ -56,14 +62,17 @@ const PethowzDiv = ()=>{
                 <div className='bg-[#FFC02E] rounded-[18px] p-8 flex items-center justify-center'>
                     <Image src={pethowz} alt='qriocity'></Image>
                 </div>
-                <div className='flex items-center gap-6 mt-8'>
-                    <h2 className='font-[800] md:text-[48px] md:leading-[60px]'>Pethowz</h2>
-                    <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>PET HOUSING</span>
-                    <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>BUSINESS</span>
-                    
+                <div className='flex flex-col md:flex-row items-left  md:items-center gap-2 md:gap-6 mt-4 md:mt-8'>
 
+                    <div className='flex order-2 md:order-1'>
+                        <h2 className='font-[800] text-[30px] md:text-[48px] md:leading-[60px]'>Pethowz</h2>
+                    </div>
+                    <div className='flex md:gap-6 gap-3 md:order-2 order-1'>
+                        <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>PET HOUSING</span>
+                        <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>BUSINESS</span>
+                    </div>
                 </div>
-                <div className='font-[600] text-[30px] mt-1'>
+                <div className='font-[600] text-[20px] md:text-[30px] mt-1'>
                     Social Media Ads / Branding
                 </div>
             </div>
@@ -79,14 +88,17 @@ const WaterDiv=()=>{
                 <div className='bg-[#29D8FF] rounded-[18px] py-6 flex items-center justify-center'>
                     <Image src={water} alt='qriocity'></Image>
                 </div>
-                <div className='flex items-center gap-6 mt-8'>
-                    <h2 className='font-[800] md:text-[48px] md:leading-[60px]'>WaterOnClick</h2>
-                    <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>MINI BUSINESS</span>
-                    <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>LIFESTYLE</span>
-                    
+                <div className='flex flex-col md:flex-row items-left  md:items-center gap-2 md:gap-6 mt-4 md:mt-8'>
 
+                    <div className='flex order-2 md:order-1'>
+                        <h2 className='font-[800] text-[30px] md:text-[48px] md:leading-[60px]'>WaterOnClick</h2>
+                    </div>
+                    <div className='flex md:gap-6 gap-3 md:order-2 order-1'>
+                        <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>MINI BUSINESS</span>
+                        <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>LIFESTYLE</span>
+                    </div>
                 </div>
-                <div className='font-[600] text-[30px] mt-1'>
+                <div className='font-[600] text-[20px] md:text-[30px] mt-1'>
                     Social Media Ads / Paid Ads
                 </div>
             </div>
@@ -94,13 +106,16 @@ const WaterDiv=()=>{
                 <div className='bg-[#22D4B3] rounded-[18px] py-0 flex items-center justify-center'>
                     <Image src={law} alt='qriocity'></Image>
                 </div>
-                <div className='flex items-center gap-6 mt-8'>
-                    <h2 className='font-[800] md:text-[48px] md:leading-[60px]'>VLS Law Academy</h2>
-                    <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>LAW FIRM</span>
-                    
+                <div className='flex flex-col md:flex-row items-left  md:items-center gap-2 md:gap-6 mt-4 md:mt-8'>
 
+                    <div className='flex order-2 md:order-1'>
+                        <h2 className='font-[800] text-[30px] md:text-[48px] md:leading-[60px]'>VLS Law Academy</h2>
+                    </div>
+                    <div className='flex md:gap-6 gap-3 md:order-2 order-1'>
+                        <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>LAW FIRM</span>
+                    </div>
                 </div>
-                <div className='font-[600] text-[30px] mt-1'>
+                <div className='font-[600] text-[20px] md:text-[30px] mt-1'>
                 Social Media Ads / Branding
                 </div>
             </div>
@@ -116,14 +131,17 @@ const ParrotaDiv = ()=>{
                 <div className='bg-[#85472B] rounded-[18px]  flex items-center justify-center h-[260px] md:h-[618px] overflow-hidden relative'>
                     <Image src={parotta2} alt='qriocity' className='absolute left-[55%] translate-x-[-50%] bottom-[-42%] md:bottom-[-65%]'></Image>
                 </div>
-                <div className='flex items-center gap-6 mt-8'>
-                    <h2 className='font-[800] md:text-[48px] md:leading-[60px]'>Chapati Kadai</h2>
-                    <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>FOOD</span>
-                    <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>INDUSTRY</span>
-                    
+                <div className='flex flex-col md:flex-row items-left  md:items-center gap-2 md:gap-6 mt-4 md:mt-8'>
 
+                    <div className='flex order-2 md:order-1'>
+                        <h2 className='font-[800] text-[30px] md:text-[48px] md:leading-[60px]'>Chapati Kadai</h2>
+                    </div>
+                    <div className='flex md:gap-6 gap-3 md:order-2 order-1'>
+                        <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>FOOD</span>
+                        <span className='h-fit w-fit border-[1px] border-[#CECECE] rounded-[21px] px-4 py-1 font-[700] text-[13px]'>INDUSTRY</span>
+                    </div>
                 </div>
-                <div className='font-[600] text-[30px] mt-1'>
+                <div className='font-[600] text-[20px] md:text-[30px] mt-1'>
                     Social Media Ads / Branding
                 </div>
             </div>
