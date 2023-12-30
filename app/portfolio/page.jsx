@@ -34,7 +34,7 @@ const QriocityDiv=()=>{
                 </div>
             </div>
             <div className='w-full md:w-1/2 '>
-                <div className='bg-[#958F38] rounded-[18px] py-14 flex items-center justify-center'>
+                <div className='bg-[#958F38] rounded-[18px] py-14 flex items-center justify-center md:px-0 px-6'>
                     <Image src={builders} alt='qriocity'></Image>
                 </div>
                 <div className='flex flex-col md:flex-row items-left  md:items-center gap-2 md:gap-6 mt-4 md:mt-8'>
