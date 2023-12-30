@@ -44,7 +44,7 @@ const Services = () => {
       <div className='mt-4 w-[90%] md:w-[50%]'>
       {servicesData.map((item, index) => (
         
-        <div key={index} className={`transform my-6 p-4 bg-[#FFFDF8] text-black border-2 border-[#696969] transition-all duration-1000 ${(openIndex==index)?'h-[430px] md:h-[300px] ':'h-[100px] md:h-[100px]'}`}>
+        <div key={index} className={`transform my-6 p-4 bg-[#FFFDF8] text-black border-2 border-[#696969] transition-all duration-1000 ${(openIndex==index)?'h-[430px] md:h-[300px] ':'h-[80px] md:h-[100px]'}`}>
           <div
             className="flex justify-between items-center p-2 cursor-pointer "
             onClick={() => toggleAccordion(index)}

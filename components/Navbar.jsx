@@ -43,7 +43,7 @@ export const Navbar = () => {
           <HiX className=" text-2xl cursor-pointer " onClick={toggleMenu} />
           <Link href="/" onClick={toggleMenu}>Home</Link>
           <Link href="/about" onClick={toggleMenu}>About Us</Link>
-          {/* <Link href="/portfolio" onClick={toggleMenu}>Portfolio</Link> */}
+          <Link href="/portfolio" onClick={toggleMenu}>Portfolio</Link>
           <Link href="/services" onClick={toggleMenu}>Our Services</Link>
           <Link href="/contact" onClick={toggleMenu}>Contact Us</Link>
         </div>

@@ -65,6 +65,7 @@
 
 .one-time{
     animation: oneTime 2s  ease-in forwards;
+    animation-delay: 1.4s;
 }
 @keyframes oneTime {
     0%{
