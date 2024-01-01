@@ -1,6 +1,5 @@
 {
   "/page": "app/page.js",
-  "/about/page": "app/about/page.js",
-  "/services/page": "app/services/page.js",
-  "/portfolio/page": "app/portfolio/page.js"
+  "/portfolio/page": "app/portfolio/page.js",
+  "/CaseStudy/Qriocity/page": "app/CaseStudy/Qriocity/page.js"
 }

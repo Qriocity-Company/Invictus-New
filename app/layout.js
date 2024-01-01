@@ -1,6 +1,7 @@
 
 
 import { Inter } from 'next/font/google'
+// import {sofia} from 'next/font/google'
 import './globals.css'
 import { Navbar } from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -40,11 +41,20 @@ const grotesk = localFont({
   variable: '--font-grotesk'
 })
 
+const sofia = localFont({
+  src:[
+    {
+      path:'../public/fonts/sofia-pro/sofiapro-light.otf'
+    }
+  ],
+  variable: '--font-sofia'
+})
+
 
 export default function RootLayout({ children }) {
 
   return (
-    <html lang="en" className={`${grotesk.variable}`} >
+    <html lang="en" className={`${grotesk.variable} ${sofia.variable}`} >
       <body className='w-full flex flex-col justify-center items-center ' >
         <Navbar/>
         {children}

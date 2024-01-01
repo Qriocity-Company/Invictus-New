@@ -4,7 +4,7 @@ import '../styles/testimonials.css';
 import { FaAngleRight } from "react-icons/fa";
 import { FaAngleLeft } from "react-icons/fa";
 import Image from 'next/image';
-
+import Link from 'next/link';
 import builders from '../assets/testimonials/builders.svg'
 import chapati from '../assets/testimonials/chapati.svg'
 import gym from '../assets/testimonials/gym.svg'
@@ -50,7 +50,7 @@ const companyImages = [
     { img: law },
     { img: merc },
     { img: pethouse },
-    { img: qriocity },
+    { img: qriocity , route:"/CaseStudy/Qriocity"},
     { img: resnet },
     { img: tvs },
     { img: volkswagen },
@@ -74,6 +74,12 @@ const TestimonialCompanies = () =>{
         {
           companyImages.map((company,index)=>{
             return(
+                  company.hasOwnProperty('route')?
+                  <Link href={company.route} data-aos="fade-up" className='w-full h-[100px] md:h-[150px] flex items-center justify-center ' key={index} >
+                    <Image src={company.img} className=' company hover:-translate-y-2 transition-all duration-300 '></Image>
+
+                  </Link>
+                  :
                   <div data-aos="fade-up" className='w-full h-[100px] md:h-[150px] flex items-center justify-center ' key={index} >
                     <Image src={company.img} className=' company hover:-translate-y-2 transition-all duration-300 '></Image>
 

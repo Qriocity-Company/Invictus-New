@@ -10,12 +10,12 @@ import law from '../../assets/portfolio/law.svg'
 import parotta from '../../assets/portfolio/parotta.svg'
 import chapati from '../../assets/portfolio/chapati.svg'
 import parotta2 from '../../assets/portfolio/parotta-2.svg'
-
+import Link from 'next/link'
 const QriocityDiv=()=>{
     return(
         <div className='w-[90%] flex flex-col md:flex-row my-24 gap-12 md:gap-6'>
 
-            <div className='w-full md:w-1/2 '>
+            <Link className='w-full md:w-1/2 ' href="/CaseStudy/Qriocity">
                 <div className='bg-[#F15A29] rounded-[18px] py-28 flex items-center justify-center'>
                     <Image src={qriocityImg} alt='qriocity'></Image>
                 </div>
@@ -32,7 +32,7 @@ const QriocityDiv=()=>{
                 <div className='font-[600] text-[20px] md:text-[30px] mt-1'>
                     Social Media Ads / Paid Ads
                 </div>
-            </div>
+            </Link>
             <div className='w-full md:w-1/2 '>
                 <div className='bg-[#958F38] rounded-[18px] py-14 flex items-center justify-center md:px-0 px-6'>
                     <Image src={builders} alt='qriocity'></Image>
