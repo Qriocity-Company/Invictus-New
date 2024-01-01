@@ -5,6 +5,9 @@ import qinsta from '../../../assets/CaseStudy/qriocity/qriocity-insta.svg'
 import qriocityAds from '../../../assets/CaseStudy/qriocity/qriocity-ad.svg'
 import bottomImg from '../../../assets/CaseStudy/qriocity/qriocity-bottomImg.png'
 import headerImg from '../../../assets/CaseStudy/qriocity/topImage-qriocity.png'
+import logoWhite from '../../../assets/CaseStudy/qriocity/qriocity-logo-white.svg'
+import logoBlack from '../../../assets/CaseStudy/qriocity/qriocity-logo-black.svg'
+
 import ProblemSolved from '@/components/ProblemSolved'
 import SocialMedia from '@/components/SocialMedia'
 import Branding from '@/components/Branding'
@@ -21,7 +24,7 @@ const page = () => {
 
         <SocialMedia isfb={true} isinsta={true} iswhatsapp={true} isx={false}/>
 
-        <Branding firstColor={"#26CFD3"} secondColor={"#F15A29"} thirdColor={"#070707"} fourthColor={"#F1F1F1"}/>
+        <Branding  logo1={logoBlack} logo2={logoWhite} firstColor={"#26CFD3"} secondColor={"#F15A29"} thirdColor={"#070707"} fourthColor={"#F1F1F1"} logoColor={"#29D8FF"}/>
 
         <Typography font={"Poppins"}/>
 

@@ -84,7 +84,7 @@ const WaterDiv=()=>{
     return(
         <div className='w-[90%] flex flex-col md:flex-row my-24 md:gap-6 gap-12'>
 
-            <div className='w-full md:w-1/2 '>
+            <Link href="/CaseStudy/WaterOnClick" className='w-full md:w-1/2 '>
                 <div className='bg-[#29D8FF] rounded-[18px] py-6 flex items-center justify-center'>
                     <Image src={water} alt='qriocity'></Image>
                 </div>
@@ -101,8 +101,8 @@ const WaterDiv=()=>{
                 <div className='font-[600] text-[20px] md:text-[30px] mt-1'>
                     Social Media Ads / Paid Ads
                 </div>
-            </div>
-            <div className='w-full md:w-1/2 '>
+            </Link>
+            <Link className='w-full md:w-1/2 ' href="/CaseStudy/VLS_Law_Academy">
                 <div className='bg-[#22D4B3] rounded-[18px] py-0 flex items-center justify-center'>
                     <Image src={law} alt='qriocity'></Image>
                 </div>
@@ -118,7 +118,7 @@ const WaterDiv=()=>{
                 <div className='font-[600] text-[20px] md:text-[30px] mt-1'>
                 Social Media Ads / Branding
                 </div>
-            </div>
+            </Link>
         </div>
     )
 }

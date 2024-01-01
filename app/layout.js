@@ -44,7 +44,8 @@ const grotesk = localFont({
 const sofia = localFont({
   src:[
     {
-      path:'../public/fonts/sofia-pro/sofiapro-light.otf'
+      path:'../public/fonts/sofia-pro/sofia.otf',
+      weight:'500'
     }
   ],
   variable: '--font-sofia'

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Sofia';
+    src: url('/fonts/sofia-pro/sofia.otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.blurred{
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
+    }

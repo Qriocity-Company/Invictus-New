@@ -1,11 +1,9 @@
 "use client"
 
 import React,{useEffect} from 'react'
-import qriocityBlack from '../assets/CaseStudy/qriocity/qriocity-logo-black.svg'
-import qriocityWhite from '../assets/CaseStudy/qriocity/qriocity-logo-white.svg'
 import Image from 'next/image'
 
-const Branding = ({firstColor,secondColor,thirdColor,fourthColor}) => {
+const Branding = ({firstColor,secondColor,thirdColor,fourthColor,logoColor,logo1,logo2}) => {
 
   useEffect(() => {
    
@@ -18,18 +16,18 @@ const Branding = ({firstColor,secondColor,thirdColor,fourthColor}) => {
 
       <h1 className='font-[800] text-3xl md:text-[60px] md:leading-[59px]'>Complete Design Branding</h1>
 
-      <div className={`bg-[${firstColor}] flex flex-col md:flex-row w-full justify-around items-center px-6 md:px-0 py-6 md:py-20 gap-6 md:gap-0 md:rounded-[44px]`} style={{backgroundColor:firstColor}}>
+      <div className={` flex flex-col md:flex-row w-full justify-around items-center px-6 md:px-0 py-6 md:py-20 gap-6 md:gap-0 md:rounded-[44px]`} style={{backgroundColor:logoColor}}>
 
         <div className='bg-black p-20 rounded-[22px] flex items-center justify-center'>
-          <Image src={qriocityBlack} alt='img'></Image>
+          <Image src={logo1} alt='img'></Image>
         </div>
 
         <div className='bg-white p-20 rounded-[22px] flex items-center justify-center'>
-          <Image src={qriocityWhite} alt='img'></Image>
+          <Image src={logo2} alt='img'></Image>
         </div>
       </div>
 
-      <div className='flex w-full h-[320px]'>
+      <div className='flex w-full h-[200px] md:h-[320px]'>
 
         <div className={`w-[40%] flex flex-col h-full`}>
           <div className={`bg-[${firstColor}] h-[90%] w-full`} style={{backgroundColor:firstColor}}>

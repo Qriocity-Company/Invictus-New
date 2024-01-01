@@ -47,14 +47,14 @@ const companyImages = [
     { img: chapati },
     { img: gym },
     { img: infyniti },
-    { img: law },
+    { img: law , route:"/CaseStudy/VLS_Law_Academy"},
     { img: merc },
     { img: pethouse },
     { img: qriocity , route:"/CaseStudy/Qriocity"},
     { img: resnet },
     { img: tvs },
     { img: volkswagen },
-    { img: water }
+    { img: water , route:"/CaseStudy/WaterOnClick"}
 ];
 
 

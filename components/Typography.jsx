@@ -1,25 +1,26 @@
 import React from 'react'
+import '../styles/header.css'
 
 const Typography = ({font}) => {
   return (
     <div className={`w-[90%] md:my-12 md:pb-0 pb-8 `} style={{fontFamily:font}}>
 
-        <h2 className='font-[600] text-3xl md:text-[45px]'>Typography</h2>
+        <h2 className='font-[500] text-3xl md:text-[45px]'>Typography</h2>
 
         <div className='flex items-center justify-between md:flex-row flex-col my-4 md:my-12'>
 
           <div className='flex flex-col justify-between gap-10 md:order-1 order-2'>
 
 
-              <h1 className='font-[600] text-[45px] md:text-[90px]'>{font}</h1>
+              <h1 className='font-[500] text-[45px] md:text-[90px]'>{font}</h1>
 
-              <div className='font-[600] text-lg md:text-[27px] md:leading-[35px]'>
+              <div className='font-[500] text-lg md:text-[27px] md:leading-[35px]'>
                   <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
                   <p>abcdefghijklmnopqrstuvwxyz</p>
                   <p>1234567890~!@#$%^&*()_+</p>
               </div>
             
-            <div className='font-[400] text-lg md:text-[27px] md:leading-[35px]'>
+            <div className='font-[300] text-lg md:text-[27px] md:leading-[35px]'>
                   <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
                   <p>abcdefghijklmnopqrstuvwxyz</p>
                   <p>1234567890~!@#$%^&*()_+</p>
