@@ -57,7 +57,7 @@ const QriocityDiv=()=>{
 
 const PethowzDiv = ()=>{
     return(
-        <div className='w-[90%]'>
+        <Link href="/CaseStudy/Pethowz" className='w-[90%]'>
             <div className='w-full'>
                 <div className='bg-[#FFC02E] rounded-[18px] p-8 flex items-center justify-center'>
                     <Image src={pethowz} alt='qriocity'></Image>
@@ -76,7 +76,7 @@ const PethowzDiv = ()=>{
                     Social Media Ads / Branding
                 </div>
             </div>
-        </div>
+        </Link>
     )
 }
 

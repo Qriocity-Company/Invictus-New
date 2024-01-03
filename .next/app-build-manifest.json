@@ -6,23 +6,16 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/CaseStudy/VLS_Law_Academy/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/CaseStudy/VLS_Law_Academy/page.css",
-      "static/chunks/app/CaseStudy/VLS_Law_Academy/page.js"
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
     ],
-    "/CaseStudy/Qriocity/page": [
+    "/CaseStudy/Pethowz/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/CaseStudy/Qriocity/page.css",
-      "static/chunks/app/CaseStudy/Qriocity/page.js"
-    ],
-    "/CaseStudy/WaterOnClick/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/CaseStudy/WaterOnClick/page.css",
-      "static/chunks/app/CaseStudy/WaterOnClick/page.js"
+      "static/chunks/app/CaseStudy/Pethowz/page.js"
     ]
   }
 }

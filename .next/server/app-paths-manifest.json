@@ -1,5 +1,4 @@
 {
-  "/CaseStudy/WaterOnClick/page": "app/CaseStudy/WaterOnClick/page.js",
-  "/CaseStudy/Qriocity/page": "app/CaseStudy/Qriocity/page.js",
-  "/CaseStudy/VLS_Law_Academy/page": "app/CaseStudy/VLS_Law_Academy/page.js"
+  "/page": "app/page.js",
+  "/CaseStudy/Pethowz/page": "app/CaseStudy/Pethowz/page.js"
 }

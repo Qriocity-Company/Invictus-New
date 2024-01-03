@@ -49,7 +49,7 @@ const companyImages = [
     { img: infyniti },
     { img: law , route:"/CaseStudy/VLS_Law_Academy"},
     { img: merc },
-    { img: pethouse },
+    { img: pethouse ,route:"/CaseStudy/Pethowz"},
     { img: qriocity , route:"/CaseStudy/Qriocity"},
     { img: resnet },
     { img: tvs },
