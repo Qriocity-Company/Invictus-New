@@ -56,6 +56,9 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en" className={`${grotesk.variable} ${sofia.variable}`} >
+      <head>
+      <script src="https://p.usestyle.ai" defer></script>
+      </head>
       <body className='w-full flex flex-col justify-center items-center ' >
         <Navbar/>
         {children}
