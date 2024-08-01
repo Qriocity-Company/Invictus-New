@@ -152,10 +152,10 @@ const ChooseUs = ()=>{
 
                 <div className='flex md:h-[90vh] flex-col gap-4 md:gap-8 w-[100%] md:w-[40%] md:sticky self-start top-[16%]'>
                     <h1 className='md:w-[100%] font-[800] text-[38px] md:text-[85px] md:leading-[5.5rem]'>Why Choose us ?</h1>
-                    <p className='text-lg md:text-[30px] font-[500] text-justify'>
+                    <p className='text-lg md:text-[30px] font-[500] text-start'>
                     We conceptualize, design, and ship digital products and services. Beyond websites and applications, we make interactive environments and deliver innovative user experiences.
                     </p>
-                    <p className='text-lg md:text-[30px] font-[500] text-justify'>
+                    <p className='text-lg md:text-[30px] font-[500] text-start'>
                     First, we'll collborate to show the world your best self. Then, we'll help other people understand why your business is exactly what they're looking for.
                     </p>
                 </div>
