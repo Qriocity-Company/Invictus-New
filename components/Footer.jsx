@@ -54,18 +54,18 @@ const FooterBottom = () =>{
 
                 <div className='flex flex-col gap-4'>
                     <div className='text-[#ADADAD]'>mail us</div>
-                    <div>info@invictus.com</div>
+                    <a href="mailto:contact@invictusglobaltech.com">contact@invictusglobaltech.com</a>
                 </div>
 
                 <div className='flex flex-col gap-4'>
                     <div className='text-[#ADADAD]'>even better, call us</div>
                     <div className='flex gap-8'>
-                        <div>
-                        +91-9944878589
-                        </div>
-                        <div>
+                        <a href="tel:+916369757054">
+                        +91-6369757054
+                        </a>
+                        <a href="tel:+917530070101">
                         +91-7530070101
-                        </div>
+                        </a>
                     </div>
                     
                 </div>
@@ -75,12 +75,12 @@ const FooterBottom = () =>{
                 <div className='text-[#ADADAD]'>let's be friends</div>
                 <div className='grid grid-cols-3 grid-rows-2 gap-x-12 md:gap-x-40 gap-y-8'>
 
-                    <a href="" className='hover:text-[#17A9FD] hover:scale-105 transition-all duration-300'>Facebook</a>
-                    <a href="" className='hover:text-[#833AB4] hover:scale-105 transition-all duration-300'>Instagram</a>
-                    <a href="" className='hover:text-[#FF0000] hover:scale-105 transition-all duration-300'>Youtube</a>
-                    <a href="" className='hover:text-[#0A66C2] hover:scale-105 transition-all duration-300'>Linkedin</a>
-                    <a href="" className='hover:scale-105 transition-all duration-300'>X</a>
-                    <a href="" className='hover:text-[#B92B27] hover:scale-105 transition-all duration-300'>Quora</a>
+                    <a href="https://www.facebook.com/people/Invictus-Global-Tech/61557394517942/" target="_blank" rel="noopener noreferrer" className='hover:text-[#17A9FD] hover:scale-105 transition-all duration-300'>Facebook</a>
+                    <a href="https://www.instagram.com/invictusglobaltech/" target="_blank" rel="noopener noreferrer" className='hover:text-[#833AB4] hover:scale-105 transition-all duration-300'>Instagram</a>
+                    <a href="https://www.youtube.com/@invictusglobaltech-offl" target="_blank" rel="noopener noreferrer" className='hover:text-[#FF0000] hover:scale-105 transition-all duration-300'>Youtube</a>
+                    <a href="https://www.linkedin.com/company/96644104/admin/dashboard/" target="_blank" rel="noopener noreferrer" className='hover:text-[#0A66C2] hover:scale-105 transition-all duration-300'>Linkedin</a>
+                    {/* <a href="https://facebook.com/yourpage" target="_blank" rel="noopener noreferrer" className='hover:scale-105 transition-all duration-300'>X</a>
+                    <a href="https://facebook.com/yourpage" target="_blank" rel="noopener noreferrer" className='hover:text-[#B92B27] hover:scale-105 transition-all duration-300'>Quora</a> */}
 
                 </div>
             </div>
